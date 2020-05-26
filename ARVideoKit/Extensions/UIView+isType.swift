@@ -12,7 +12,7 @@ import ARKit
 @available(iOS 11.0, *)
 extension UIScreen {
     /**
-     `isiPhone10` is a boolean that returns if the device is iPhone X or not.
+     `isNotch` is a boolean that returns if the device has notch or not.
      */
     var isNotch: Bool {
       return UIApplication.shared.keyWindow?.safeAreaInsets != UIEdgeInsets.zero
